@@ -80,6 +80,7 @@ CafeManagement/
 
 ## Cơ sở dữ liệu
 ERD Diagram
+'''
 ┌─────────────┐         ┌──────────────┐         ┌─────────────┐
 │  AppUser    │         │    Order     │         │    Table    │
 ├─────────────┤         ├──────────────┤         ├─────────────┤
@@ -110,7 +111,7 @@ ERD Diagram
                                                  │ CategoryId  │
                                                  │ CategoryName│
                                                  └─────────────┘
-
+'''
 Database Schema
 1. AppUser (Người dùng)
 
