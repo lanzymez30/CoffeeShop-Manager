@@ -1,0 +1,815 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.bll\\cafemanagement.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|solutionrelative:cafemanagement.bll\\cafemanagement.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.bll\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|solutionrelative:cafemanagement.bll\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.bll\\implementations\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|solutionrelative:cafemanagement.bll\\implementations\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.bll\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|solutionrelative:cafemanagement.bll\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.bll\\implementations\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|solutionrelative:cafemanagement.bll\\implementations\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.bll\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|solutionrelative:cafemanagement.bll\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\cafemanagement.forms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\cafemanagement.forms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.dal\\cafemanagement.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|solutionrelative:cafemanagement.dal\\cafemanagement.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.entity\\cafemanagement.entity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|solutionrelative:cafemanagement.entity\\cafemanagement.entity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.entity\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|solutionrelative:cafemanagement.entity\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.bll\\interfaces\\itableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|solutionrelative:cafemanagement.bll\\interfaces\\itableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.bll\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|solutionrelative:cafemanagement.bll\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.bll\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|solutionrelative:cafemanagement.bll\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\cafemanagement.forms\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\cafemanagement.forms\\forms\\frmreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\cafemanagement.forms\\forms\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\cafemanagement.forms\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\cafemanagement.forms\\forms\\frmtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\cafemanagement.forms\\forms\\frmproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\cafemanagement.forms\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.dal\\cafecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|solutionrelative:cafemanagement.dal\\cafecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.dal\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|solutionrelative:cafemanagement.dal\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.dal\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|solutionrelative:cafemanagement.dal\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.dal\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|solutionrelative:cafemanagement.dal\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.dal\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|solutionrelative:cafemanagement.dal\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.bll\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|solutionrelative:cafemanagement.bll\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.bll\\implementations\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DF88A8-A37E-4BCF-A512-28A071EC963C}|CafeManagement.BLL\\CafeManagement.BLL.csproj|solutionrelative:cafemanagement.bll\\implementations\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\forms\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\frmadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\frmadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.entity\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|solutionrelative:cafemanagement.entity\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\forms\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8A929F0E-32E8-4978-BEB3-2046561ACED0}|CafeManagement.DAL\\CafeManagement.DAL.csproj|solutionrelative:cafemanagement.dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\forms\\frmreport.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmreport.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\forms\\frmreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\forms\\frmtables.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmtables.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\forms\\frmtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\forms\\frmorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\forms\\frmproducts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmproducts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\forms\\frmproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.forms\\forms\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F8F0E5-4227-4A87-9939-640CF2055F2E}|CafeManagement.Forms\\CafeManagement.Forms.csproj|solutionrelative:cafemanagement.forms\\forms\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.entity\\entities\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|solutionrelative:cafemanagement.entity\\entities\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.entity\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|solutionrelative:cafemanagement.entity\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.entity\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|solutionrelative:cafemanagement.entity\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.entity\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|solutionrelative:cafemanagement.entity\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|c:\\users\\lanzymez\\downloads\\quanlycafe\\cafemanagement\\cafemanagement.entity\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61656ED-6240-4E11-AA86-C702BBF189DA}|CafeManagement.Entity\\CafeManagement.Entity.csproj|solutionrelative:cafemanagement.entity\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "CafeManagement.BLL\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "CafeManagement.BLL\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:20:00.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "CafeManagement.BLL\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "CafeManagement.BLL\\Interfaces\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:20:59.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "CafeManagement.BLL\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "CafeManagement.BLL\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:19:19.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITableService.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Interfaces\\ITableService.cs",
+              "RelativeDocumentMoniker": "CafeManagement.BLL\\Interfaces\\ITableService.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Interfaces\\ITableService.cs",
+              "RelativeToolTip": "CafeManagement.BLL\\Interfaces\\ITableService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:20:25.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "CafeManagement.BLL\\Implementations\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "CafeManagement.BLL\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:22:32.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Implementations\\OrderService.cs",
+              "RelativeDocumentMoniker": "CafeManagement.BLL\\Implementations\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Implementations\\OrderService.cs",
+              "RelativeToolTip": "CafeManagement.BLL\\Implementations\\OrderService.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAwLwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:24:44.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Entity\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\Order.cs",
+              "RelativeToolTip": "CafeManagement.Entity\\Entities\\Order.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:09:27.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CafeManagement.Entity.csproj",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\CafeManagement.Entity.csproj",
+              "RelativeDocumentMoniker": "CafeManagement.Entity\\CafeManagement.Entity.csproj",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\CafeManagement.Entity.csproj",
+              "RelativeToolTip": "CafeManagement.Entity\\CafeManagement.Entity.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-06T13:07:09.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CafeManagement.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\CafeManagement.DAL.csproj",
+              "RelativeDocumentMoniker": "CafeManagement.DAL\\CafeManagement.DAL.csproj",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\CafeManagement.DAL.csproj",
+              "RelativeToolTip": "CafeManagement.DAL\\CafeManagement.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-06T13:00:36.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CafeManagement.BLL.csproj",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\CafeManagement.BLL.csproj",
+              "RelativeDocumentMoniker": "CafeManagement.BLL\\CafeManagement.BLL.csproj",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\CafeManagement.BLL.csproj",
+              "RelativeToolTip": "CafeManagement.BLL\\CafeManagement.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-06T12:29:05.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CafeManagement.Forms.csproj",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\CafeManagement.Forms.csproj",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\CafeManagement.Forms.csproj",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\CafeManagement.Forms.csproj",
+              "RelativeToolTip": "CafeManagement.Forms\\CafeManagement.Forms.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-06T13:26:21.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmMain.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmMain.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:29:34.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TableService.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Implementations\\TableService.cs",
+              "RelativeDocumentMoniker": "CafeManagement.BLL\\Implementations\\TableService.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Implementations\\TableService.cs",
+              "RelativeToolTip": "CafeManagement.BLL\\Implementations\\TableService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:24:12.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Interfaces\\IReportService.cs",
+              "RelativeDocumentMoniker": "CafeManagement.BLL\\Interfaces\\IReportService.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Interfaces\\IReportService.cs",
+              "RelativeToolTip": "CafeManagement.BLL\\Interfaces\\IReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:21:55.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmMain.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmMain.cs [Design]",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:29:29.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmReport.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmReport.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmReport.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmReport.cs [Design]",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmReport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:39:16.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FrmOrder.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmOrder.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmOrder.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmOrder.cs [Design]",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:34:12.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FrmAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\FrmAdmin.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\FrmAdmin.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\FrmAdmin.cs [Design]",
+              "RelativeToolTip": "CafeManagement.Forms\\FrmAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T13:53:21.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FrmAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\FrmAdmin.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\FrmAdmin.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\FrmAdmin.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\FrmAdmin.cs",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAjwA0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T13:54:52.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FrmTables.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmTables.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmTables.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmTables.cs [Design]",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmTables.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:37:12.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FrmProducts.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmProducts.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmProducts.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmProducts.cs [Design]",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmProducts.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:31:30.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FrmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmLogin.cs [Design]",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:26:58.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CafeContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\CafeContext.cs",
+              "RelativeDocumentMoniker": "CafeManagement.DAL\\CafeContext.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\CafeContext.cs",
+              "RelativeToolTip": "CafeManagement.DAL\\CafeContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwDAAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:13:19.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "CafeManagement.DAL\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "CafeManagement.DAL\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:15:01.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "CafeManagement.DAL\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "CafeManagement.DAL\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:15:51.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "CafeManagement.DAL\\Repositories\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "CafeManagement.DAL\\Repositories\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:15:30.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "CafeManagement.DAL\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "CafeManagement.DAL\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:14:30.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Implementations\\ProductService.cs",
+              "RelativeDocumentMoniker": "CafeManagement.BLL\\Implementations\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Implementations\\ProductService.cs",
+              "RelativeToolTip": "CafeManagement.BLL\\Implementations\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:23:33.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Implementations\\ReportService.cs",
+              "RelativeDocumentMoniker": "CafeManagement.BLL\\Implementations\\ReportService.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.BLL\\Implementations\\ReportService.cs",
+              "RelativeToolTip": "CafeManagement.BLL\\Implementations\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:25:21.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FrmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmMain.Designer.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmMain.Designer.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmMain.Designer.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAUwCoBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:29:46.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmLogin.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:27:22.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FrmAdmin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\FrmAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\FrmAdmin.Designer.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\FrmAdmin.Designer.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\FrmAdmin.Designer.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAYwLYBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T13:55:33.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Entity\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\Category.cs",
+              "RelativeToolTip": "CafeManagement.Entity\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:07:54.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "app.config",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\app.config",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\app.config",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\app.config",
+              "RelativeToolTip": "CafeManagement.Forms\\app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-06T13:50:36.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FrmReport.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmReport.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmReport.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmReport.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmReport.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:48:42.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FrmReport.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmReport.Designer.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmReport.Designer.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmReport.Designer.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmReport.Designer.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:49:44.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Program.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Program.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Program.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:50:23.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "app.config",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\app.config",
+              "RelativeDocumentMoniker": "CafeManagement.DAL\\app.config",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.DAL\\app.config",
+              "RelativeToolTip": "CafeManagement.DAL\\app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-06T13:16:29.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FrmOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmOrder.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmOrder.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmOrder.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmOrder.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAkwBUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:35:00.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FrmTables.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmTables.Designer.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmTables.Designer.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmTables.Designer.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmTables.Designer.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:38:26.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FrmTables.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmTables.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmTables.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmTables.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:38:21.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FrmOrder.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmOrder.Designer.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmOrder.Designer.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmOrder.Designer.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmOrder.Designer.cs",
+              "ViewState": "AgIAACoBAAAAAAAAAAAqwEgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:35:07.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FrmProducts.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmProducts.Designer.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmProducts.Designer.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmProducts.Designer.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmProducts.Designer.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAqwDEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:31:45.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FrmProducts.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmProducts.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmProducts.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmProducts.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmProducts.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAqwO8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:31:32.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "FrmLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmLogin.Designer.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Forms\\Forms\\FrmLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Forms\\Forms\\FrmLogin.Designer.cs",
+              "RelativeToolTip": "CafeManagement.Forms\\Forms\\FrmLogin.Designer.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAqwHoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:28:12.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Shift.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\Shift.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Entity\\Entities\\Shift.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\Shift.cs",
+              "RelativeToolTip": "CafeManagement.Entity\\Entities\\Shift.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:10:26.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Entity\\Entities\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\OrderDetail.cs",
+              "RelativeToolTip": "CafeManagement.Entity\\Entities\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:09:59.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Table.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\Table.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Entity\\Entities\\Table.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\Table.cs",
+              "RelativeToolTip": "CafeManagement.Entity\\Entities\\Table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:09:07.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Entity\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\Product.cs",
+              "RelativeToolTip": "CafeManagement.Entity\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:08:18.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "CafeManagement.Entity\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Lanzymez\\Downloads\\quanlycafe\\CafeManagement\\CafeManagement.Entity\\Entities\\AppUser.cs",
+              "RelativeToolTip": "CafeManagement.Entity\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:07:24.884Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
