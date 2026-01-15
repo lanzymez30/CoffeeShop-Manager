@@ -34,6 +34,7 @@ EPPlus 7.0.5: Xuất Excel
 System.Drawing.Printing: In ấn hóa đơn
 
 ## Kiến trúc hệ thống
+` ` `
 CafeManagement/
 │
 ├── CafeManagement.Entity/          # Lớp thực thể (Domain Models)
@@ -78,9 +79,10 @@ CafeManagement/
         ├── ExcelExporter.cs        # Xuất Excel
         └── PrintHelper.cs          # In ấn
 
+` ` `
 ## Cơ sở dữ liệu
+` ` `
 ERD Diagram
-'''
 ┌─────────────┐         ┌──────────────┐         ┌─────────────┐
 │  AppUser    │         │    Order     │         │    Table    │
 ├─────────────┤         ├──────────────┤         ├─────────────┤
@@ -111,7 +113,7 @@ ERD Diagram
                                                  │ CategoryId  │
                                                  │ CategoryName│
                                                  └─────────────┘
-'''
+` ` `
 Database Schema
 1. AppUser (Người dùng)
 
