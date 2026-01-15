@@ -192,9 +192,10 @@ ERD Diagram
 * Tự động load: Thông tin đăng nhập mặc định cho test
 
 * Default Accounts:
+```
   Admin: admin / 1
   Staff: staff / 1
-
+```
 ### Quản lý Danh mục Đồ uống
 
 * Thêm danh mục mới
@@ -203,17 +204,17 @@ ERD Diagram
 * Xóa danh mục (có xác nhận)
 
 * Danh mục mặc định:
-  Cà phê Việt Nam: Đậm đà bản sắc
-  Trà Trái Cây Trend: Mát lạnh
-  Trà Sữa & Kem: Béo ngậy
-  Đá Xay & Smoothie: Sảng khoái
+Cà phê Việt Nam: Đậm đà bản sắc
+Trà Trái Cây Trend: Mát lạnh
+Trà Sữa & Kem: Béo ngậy
+Đá Xay & Smoothie: Sảng khoái
 
 ### Quản lý Thực đơn (Product Management)
 * Tìm kiếm Client-side Search
-  Cache RAM: Load dữ liệu 1 lần duy nhất vào List<Product>
-  LINQ Query: Tìm kiếm trên RAM, không query DB
-  Real-time: Tìm kiếm ngay khi gõ (TextChanged event)
-  Tìm theo: Tên món, tên danh mục (không phân biệt hoa thường)
+Cache RAM: Load dữ liệu 1 lần duy nhất vào List<Product>
+LINQ Query: Tìm kiếm trên RAM, không query DB
+Real-time: Tìm kiếm ngay khi gõ (TextChanged event)
+Tìm theo: Tên món, tên danh mục 
 
 
 * CRUD Operations (Thêm - Sửa - Xoá)
@@ -247,10 +248,10 @@ Format với EPPlus
 🔴 Occupied (Đang phục vụ): Có khách
 
 * Quản lý CRUD Bàn (Admin)
- Thêm bàn: Tên, sức chứa
- Sửa thông tin: Cập nhật capacity
- Xóa bàn: Kiểm tra trạng thái trước khi xóa
- Xem danh sách: DataGridView với binding
+Thêm bàn: Tên, sức chứa
+Sửa thông tin: Cập nhật capacity
+Xóa bàn: Kiểm tra trạng thái trước khi xóa
+Xem danh sách: DataGridView với binding
 
 ### Lập Hóa đơn Bán hàng 
 * Quy trình bán hàng
@@ -268,8 +269,8 @@ csharpprivate void btnCheckOut_Click(object sender, EventArgs e)
 }
 ```
 ### Thống kê Doanh thu
-* Báo cáo theo khoảng thời gian
-* Top sản phẩm bán chạy
+Báo cáo theo khoảng thời gian
+Top sản phẩm bán chạy
 
 ### Quản lý Tài khoản (Admin Only)
 Reset mật khẩu
