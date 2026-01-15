@@ -77,6 +77,7 @@ CafeManagement/
     └── Helpers/
         ├── ExcelExporter.cs        # Xuất Excel
         └── PrintHelper.cs          # In ấn
+
 ## Cơ sở dữ liệu
 ERD Diagram
 ┌─────────────┐         ┌──────────────┐         ┌─────────────┐
@@ -109,6 +110,7 @@ ERD Diagram
                                                  │ CategoryId  │
                                                  │ CategoryName│
                                                  └─────────────┘
+
 Database Schema
 1. AppUser (Người dùng)
 
