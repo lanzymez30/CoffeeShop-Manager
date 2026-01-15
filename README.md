@@ -34,7 +34,7 @@ EPPlus 7.0.5: Xuất Excel
 System.Drawing.Printing: In ấn hóa đơn
 
 ## Kiến trúc hệ thống
-` ` `
+```text
 CafeManagement/
 │
 ├── CafeManagement.Entity/          # Lớp thực thể (Domain Models)
