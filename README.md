@@ -12,12 +12,12 @@ Hướng dẫn sử dụng
 Lanzimi Coffee Management System là ứng dụng quản lý quán cafe được phát triển trên nền tảng Windows Forms với .NET 8.0
 
 ### Kiến trúc 3 lớp (3-tier architecture): BLL, DAL, Entity
-Repository Pattern & Unit of Work: Tối ưu hóa truy xuất dữ liệu
-Entity Framework Core: ORM hiện đại cho .NET
-Bảo mật: Mã hóa connection string trong app.config
-Hiệu năng cao: Cache dữ liệu trên RAM, giảm truy vấn database
-Tối ưu CRUD: Chỉ cập nhật dữ liệu thay đổi, không reload toàn bộ
-Xuất báo cáo: Hỗ trợ Excel và in ấn trực tiếp
+* Repository Pattern & Unit of Work: Tối ưu hóa truy xuất dữ liệu
+* Entity Framework Core: ORM hiện đại cho .NET
+* Bảo mật: Mã hóa connection string trong app.config
+* Hiệu năng cao: Cache dữ liệu trên RAM, giảm truy vấn database
+* Tối ưu CRUD: Chỉ cập nhật dữ liệu thay đổi, không reload toàn bộ
+* Xuất báo cáo: Hỗ trợ Excel và in ấn trực tiếp
 
 ## Công nghệ sử dụng
 ### Backend
@@ -34,7 +34,7 @@ EPPlus 7.0.5: Xuất Excel
 System.Drawing.Printing: In ấn hóa đơn
 
 ## Kiến trúc hệ thống
-```text
+```
 CafeManagement/
 │
 ├── CafeManagement.Entity/          # Lớp thực thể (Domain Models)
