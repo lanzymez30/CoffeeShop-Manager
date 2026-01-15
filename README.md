@@ -79,9 +79,10 @@ CafeManagement/
         ├── ExcelExporter.cs        # Xuất Excel
         └── PrintHelper.cs          # In ấn
 
-` ` `
+```
 ## Cơ sở dữ liệu
-` ` `
+```markdown
+```text
 ERD Diagram
 ┌─────────────┐         ┌──────────────┐         ┌─────────────┐
 │  AppUser    │         │    Order     │         │    Table    │
@@ -113,7 +114,7 @@ ERD Diagram
                                                  │ CategoryId  │
                                                  │ CategoryName│
                                                  └─────────────┘
-` ` `
+```
 Database Schema
 1. AppUser (Người dùng)
 
@@ -218,33 +219,17 @@ Database Schema
 
 * CRUD Operations (Thêm - Sửa - Xoá)
 Create (Thêm):
-
+```
 csharpprivate void btnAddFood_Click(object sender, EventArgs e)
-
+```
 Update (Sửa):
-
+```
 csharpprivate void btnEditFood_Click(object sender, EventArgs e)
-
+```
 Delete (Xóa):
-
+```
 private void btnDeleteFood_Click(object sender, EventArgs e)
-
-* Tối ưu EF Core:
-
-csharp// GenericRepository.cs - Chỉ update entity thay đổi
-public void Update(T entity)
-{
-    _dbSet.Attach(entity); // Attach entity vào context
-    _context.Entry(entity).State = EntityState.Modified; // Đánh dấu Modified
-    // EF chỉ generate UPDATE cho fields thay đổi
-}
-
-public void Delete(object id)
-{
-    var entityToDelete = _dbSet.Find(id); // Find by PK
-    if (entityToDelete != null)
-        _dbSet.Remove(entityToDelete); // Chỉ DELETE 1 record
-}
+```
 
 * Validation
 Tên sản phẩm không được trống
@@ -274,6 +259,7 @@ Bước 1: Chọn bàn
 Bước 2: Tạo Order (Nếu bàn trống)
 Bước 3: Thêm món
 Bước 4: Thanh toán và hiển thị hoá đơn
+```
 csharpprivate void btnCheckOut_Click(object sender, EventArgs e)
 {
     if (_currentTable == null) return;
@@ -281,7 +267,7 @@ csharpprivate void btnCheckOut_Click(object sender, EventArgs e)
         PrintBill(order.OrderId); // In hóa đơn
     }
 }
-
+```
 ### Thống kê Doanh thu
 * Báo cáo theo khoảng thời gian
 * Top sản phẩm bán chạy
