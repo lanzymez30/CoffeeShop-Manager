@@ -1,4 +1,4 @@
-rgba(144, 183, 255, 0.93) Management System - Hệ thống Quản lý Quán Cafe
+# Management System - Hệ thống Quản lý Quán Cafe
 Mục lục
 Giới thiệu
 Công nghệ sử dụng
@@ -8,11 +8,10 @@ Chức năng hệ thống
 Hướng dẫn cài đặt
 Hướng dẫn sử dụng
 
-# Giới thiệu
-Lanzimi Coffee Management System là ứng dụng quản lý quán cafe được phát triển trên nền tảng Windows Forms với .NET 8.0. Hệ thống cung cấp giải pháp toàn diện cho việc quản lý hoạt động kinh doanh quán cafe, từ quản lý thực đơn, bàn ăn, đơn hàng đến thống kê doanh thu.
-✨ Đặc điểm nổi bật
+## Giới thiệu
+Lanzimi Coffee Management System là ứng dụng quản lý quán cafe được phát triển trên nền tảng Windows Forms với .NET 8.0
 
-## Kiến trúc 3 lớp (3-tier architecture): BLL, DAL, Entity
+### Kiến trúc 3 lớp (3-tier architecture): BLL, DAL, Entity
 Repository Pattern & Unit of Work: Tối ưu hóa truy xuất dữ liệu
 Entity Framework Core: ORM hiện đại cho .NET
 Bảo mật: Mã hóa connection string trong app.config
@@ -20,21 +19,21 @@ Hiệu năng cao: Cache dữ liệu trên RAM, giảm truy vấn database
 Tối ưu CRUD: Chỉ cập nhật dữ liệu thay đổi, không reload toàn bộ
 Xuất báo cáo: Hỗ trợ Excel và in ấn trực tiếp
 
-# Công nghệ sử dụng
-## Backend
+## Công nghệ sử dụng
+### Backend
 
 .NET 8.0: Framework chính
 Entity Framework Core 8.0.22: ORM
 SQL Server: Hệ quản trị cơ sở dữ liệu
 LINQ: Truy vấn dữ liệu
 
-## Frontend
+### Frontend
 
 Windows Forms: Giao diện người dùng
 EPPlus 7.0.5: Xuất Excel
 System.Drawing.Printing: In ấn hóa đơn
 
-# Kiến trúc hệ thống
+## Kiến trúc hệ thống
 CafeManagement/
 │
 ├── CafeManagement.Entity/          # Lớp thực thể (Domain Models)
@@ -78,7 +77,7 @@ CafeManagement/
     └── Helpers/
         ├── ExcelExporter.cs        # Xuất Excel
         └── PrintHelper.cs          # In ấn
-# Cơ sở dữ liệu
+## Cơ sở dữ liệu
 ERD Diagram
 ┌─────────────┐         ┌──────────────┐         ┌─────────────┐
 │  AppUser    │         │    Order     │         │    Table    │
@@ -179,8 +178,8 @@ Database Schema
 - OrderCount (int, DEFAULT 0)
 - Note (nvarchar, NULL)
 
-# Chức năng hệ thống
-## Quản lý Đăng nhập & Phân quyền
+## Chức năng hệ thống
+### Quản lý Đăng nhập & Phân quyền
 * Đăng nhập (FrmLogin)
 * Xác thực người dùng: Username & Password
 * Mã hóa mật khẩu: Hash password trong database
@@ -191,7 +190,7 @@ Database Schema
   Admin: admin / 1
   Staff: staff / 1
 
-## Quản lý Danh mục Đồ uống
+### Quản lý Danh mục Đồ uống
 
 * Thêm danh mục mới
 * Xem danh sách danh mục
@@ -204,7 +203,7 @@ Database Schema
   Trà Sữa & Kem: Béo ngậy
   Đá Xay & Smoothie: Sảng khoái
 
-## Quản lý Thực đơn (Product Management)
+### Quản lý Thực đơn (Product Management)
 * Tìm kiếm Client-side Search
   Cache RAM: Load dữ liệu 1 lần duy nhất vào List<Product>
   LINQ Query: Tìm kiếm trên RAM, không query DB
@@ -247,12 +246,12 @@ Tên sản phẩm không được trống
 Giá phải lớn hơn 0
 Phải chọn danh mục
 
-## Export Excel
+### Export Excel
 
 Xuất danh sách sản phẩm với đầy đủ thông tin
 Format với EPPlus
 
-## Quản lý Bàn & Tình trạng
+### Quản lý Bàn & Tình trạng
 
 * Trạng thái bàn (Real-time)
 🟢 Available (Trống): Sẵn sàng phục vụ
@@ -264,7 +263,7 @@ Format với EPPlus
  Xóa bàn: Kiểm tra trạng thái trước khi xóa
  Xem danh sách: DataGridView với binding
 
-## Lập Hóa đơn Bán hàng 
+### Lập Hóa đơn Bán hàng 
 * Quy trình bán hàng
 Bước 1: Chọn bàn
 Bước 2: Tạo Order (Nếu bàn trống)
@@ -278,11 +277,11 @@ csharpprivate void btnCheckOut_Click(object sender, EventArgs e)
     }
 }
 
-## Thống kê Doanh thu
+### Thống kê Doanh thu
 * Báo cáo theo khoảng thời gian
 * Top sản phẩm bán chạy
 
-## Quản lý Tài khoản (Admin Only)
+### Quản lý Tài khoản (Admin Only)
 Reset mật khẩu
 
 # Tính năng nâng cao
@@ -290,18 +289,18 @@ Reset mật khẩu
 * In hóa đơn (Thermal Printer Support)
 * Migration
 
-# Hướng dẫn cài đặt
-## Yêu cầu hệ thống
+## Hướng dẫn cài đặt
+### Yêu cầu hệ thống
 - Windows 10/11
 - .NET 8.0 SDK
 - SQL Server 2019+ / SQL Server Express
 - Visual Studio 2022 (recommended) hoặc VS Code
 
-## Các bước cài đặt
+### Các bước cài đặt
 
 * Clone repository
 ```bash
-git clone https://github.com/yourusername/CafeManagement.git
+git clone https://github.com/lanzymez30/CoffeeShop-Manager
 cd CafeManagement
 ```
 
@@ -347,60 +346,60 @@ Nhấn run
 Sử dụng tài khoản mặc định:
 **Admin**: `admin` / `1`
 **Staff**: `staff` / `1`
-# Hướng dẫn sử dụng
-## Quy trình bán hàng cơ bản
+## Hướng dẫn sử dụng
+### Quy trình bán hàng cơ bản
 
-### 1. Đăng nhập
+#### 1. Đăng nhập
 * Nhập username và password
 * Hệ thống tự động phân quyền
 
-### 2. Chọn bàn
+#### 2. Chọn bàn
 * Nhìn vào FlowLayoutPanel các bàn
 * Bàn màu **xanh** = Trống
 * Bàn màu **đỏ** = Đang phục vụ
 * Click vào bàn để chọn
 
-### 3. Thêm món
+#### 3. Thêm món
 * Chọn danh mục từ ComboBox
 * Chọn món từ ComboBox món
 * Điều chỉnh số lượng
 * Click "Thêm món"
 
-### 4. Xem hóa đơn
+#### 4. Xem hóa đơn
 * ListView hiển thị các món đã order
 * Tổng tiền tự động tính
 
-### 5. Thanh toán
+#### 5. Thanh toán
 * Click "Thanh toán"
 * Xác nhận trong dialog
 * Hóa đơn được in tự động
 * Bàn chuyển về trạng thái "Trống"
 
-## Quản lý Admin
+### Quản lý Admin
 
-### 1. Truy cập Admin
+#### 1. Truy cập Admin
 * Menu → Admin (chỉ Admin mới thấy)
 
-### 2. Quản lý Thực đơn
+#### 2. Quản lý Thực đơn
 * Tab "Thực đơn"
 * Tìm kiếm món bằng ô search
 * Thêm/Sửa/Xóa món
 * Xuất Excel danh sách
 
-### 3. Quản lý Bàn
+#### 3. Quản lý Bàn
 * Tab "Bàn ăn"
 * Thêm bàn với sức chứa
 * Sửa thông tin bàn
 * Xóa bàn (nếu không đang sử dụng)
 
-### 4. Thống kê Doanh thu
+#### 4. Thống kê Doanh thu
 * Tab "Doanh thu"
 * Chọn khoảng thời gian
 * Click "Thống kê"
 * Xem báo cáo trên DataGridView
 * Xuất Excel hoặc In báo cáo
 
-### 5. Reset Mật khẩu
+#### 5. Reset Mật khẩu
 * Tab "Tài khoản"
 * Chọn user cần reset
 * Nhập mật khẩu mới
